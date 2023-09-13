@@ -1,4 +1,8 @@
 # Topicos_Especiais
+Para instalar as dependencia é só usar o comando:
+``` bash
+pip install -r requirements.txt
+```
 
 Para rodar o servidor é so usar o comando:
 ``` bash
