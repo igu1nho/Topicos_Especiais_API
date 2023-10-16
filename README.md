@@ -11,5 +11,5 @@ avicorn main:app --reaload
 
 Ou para executar em host ou uma porta especifica: 
 ```bash
-uvicorn main:app --host 0.0.0.0 --port 3000
+uvicorn main:app --host 0.0.0.0 --port 3030
 ```
