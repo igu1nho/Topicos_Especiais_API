@@ -6,7 +6,7 @@ pip install -r requirements.txt
 
 Para rodar o servidor é so usar o comando:
 ``` bash
-avicorn main:app --reaload
+uvicorn main:app --reaload
 ```
 
 Ou para executar em host ou uma porta especifica: 
