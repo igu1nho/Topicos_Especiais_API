@@ -1,5 +1,5 @@
 # Topicos_Especiais_Back_End
 [João Carlos](https://github.com/Jcarlos1999) fez os códigos do Back end, a implementação do Back end com o Front end e ajudou na configuração do Mongo DB
 
-[Igor Luiz](https://github.com/igu1nho) fez os testes do Back end, configuração do Mongo DB(Banco de Dados) e testes do Mongo
+[Igor Luiz](https://github.com/igu1nho) fez os testes do Back end, configuração do Mongo DB(Banco de Dados), testes do Mongo, a edição de vídeo e suporte do grupo
 
