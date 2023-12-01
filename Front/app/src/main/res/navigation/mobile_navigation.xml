@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@+id/nav_principal">
+
+    <fragment
+        android:id="@+id/nav_principal"
+        android:name="com.cursoandroid.navigationdrawer.ui.principal.PrincipalFragment"
+        android:label="@string/menu_principal"
+        tools:layout="@layout/fragment_principal" />
+
+    <fragment
+        android:id="@+id/nav_sobre"
+        android:name="com.cursoandroid.navigationdrawer.ui.sobre.SobreFragment"
+        android:label="@string/menu_sobre"
+        tools:layout="@layout/fragment_sobre" />
+
+    <fragment
+        android:id="@+id/nav_solucoes"
+        android:name="com.cursoandroid.navigationdrawer.ui.solucoes.SolucoesFragment"
+        android:label="@string/menu_solucoes"
+        tools:layout="@layout/fragment_solucoes" />
+
+    <fragment
+        android:id="@+id/nav_contato"
+        android:name="com.cursoandroid.navigationdrawer.ui.contato.ContatoFragment"
+        android:label="@string/menu_contato"
+        tools:layout="@layout/fragment_contato" />
+
+    <fragment
+        android:id="@+id/nav_alterar_senha"
+        android:name="com.cursoandroid.navigationdrawer.ui.configuracoes.AlterarSenhaFragment"
+        android:label="@string/menu_alterar_senha"
+        tools:layout="@layout/fragment_alterar_senha" />
+
+    <fragment
+        android:id="@+id/nav_carreiras"
+        android:name="com.cursoandroid.navigationdrawer.ui.carreiras.CarreirasFragment"
+        android:label="@string/menu_carreiras"
+        tools:layout="@layout/fragment_carreiras" />
+
+    <fragment
+        android:id="@+id/nav_percepcoes"
+        android:name="com.cursoandroid.navigationdrawer.ui.informacoes.InformacoesFragment"
+        android:label="@string/menu_percepcoes"
+        tools:layout="@layout/fragment_informacoes" />
+
+</navigation>

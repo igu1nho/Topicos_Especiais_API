@@ -1,0 +1,24 @@
+<resources>
+    <string name="app_name">APTIV</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Android Studio</string>
+    <string name="nav_header_subtitle">android.studio@android.com</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Settings</string>
+
+    <string name="menu_principal">Principal</string>
+    <string name="menu_sobre">Sobre</string>
+    <string name="menu_solucoes">Soluções</string>
+    <string name="menu_contato">Contato</string>
+    <string name="menu_alterar_senha">Alterar Senha</string>
+    <string name="menu_carreiras">Carreiras</string>
+    <string name="menu_percepcoes">Informaçoes</string>
+
+    <string name="navegacao_titulo">APTIV</string>
+    <string name="navegacao_email">www.aptiv.com</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+</resources>
