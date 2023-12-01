@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+
+        <item
+            android:id="@+id/nav_principal"
+            android:icon="@drawable/ic_menu_principal"
+            android:title="@string/menu_principal" />
+
+        <item
+            android:id="@+id/nav_percepcoes"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:icon="@drawable/ic_menu_informacoes"
+            android:title="@string/menu_percepcoes" />
+
+        <item
+            android:id="@+id/nav_solucoes"
+            android:icon="@drawable/ic_menu_solucoes"
+            android:title="@string/menu_solucoes" />
+
+        <item
+            android:id="@+id/nav_carreiras"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:icon="@drawable/ic_menu_servicos"
+            android:title="@string/menu_carreiras" />
+
+        <item
+            android:id="@+id/nav_sobre"
+            android:icon="@drawable/ic_menu_sobre"
+            android:title="@string/menu_sobre" />
+
+    </group>
+
+    <item android:title="Configurações">
+        <menu>
+            <item
+                android:id="@+id/nav_alterar_senha"
+                android:icon="@drawable/ic_menu_alterar_senha"
+                android:title="@string/menu_alterar_senha" />
+        </menu>
+    </item>
+
+
+    <item android:title="Entre em contato">
+        <menu>
+            <item
+                android:id="@+id/nav_contato"
+                android:icon="@drawable/ic_menu_contato"
+                android:title="@string/menu_contato" />
+        </menu>
+    </item>
+
+</menu>

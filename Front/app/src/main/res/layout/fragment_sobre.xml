@@ -1,0 +1,377 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    tools:context=".ui.sobre.SobreFragment">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <ImageView
+            android:id="@+id/imageView8"
+            android:layout_width="wrap_content"
+            android:layout_height="161dp"
+            android:src="@drawable/sobre_1" />
+
+        <TextView
+            android:id="@+id/textView22"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:gravity="center_horizontal"
+            android:text="Aptiv em resumo"
+            android:textColor="@color/colorPrimaryDark"
+            android:textSize="22sp"
+            app:fontFamily="monospace" />
+
+        <TextView
+            android:id="@+id/textView23"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:gravity="center_horizontal"
+            android:text="ENFRENTAR OS DESAFIOS MAIS DIFÍCEIS DA MOBILIDADE"
+            android:textColor="@color/colorPrimaryDark"
+            android:textSize="7sp"
+            app:fontFamily="@font/alata" />
+
+        <TextView
+            android:id="@+id/textView24"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="10dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="10dp"
+            android:text="A Aptiv é líder global em tecnologia, com mais de 200.000 pessoas em 131 instalações de fabricação e 11 grandes centros técnicos em todo o mundo. Com presença em 48 países, enfrentamos os desafios mais difíceis da mobilidade por meio de nosso software profundo e expertise em integração de sistemas, entregando soluções relevantes no mercado para nossos clientes. "
+            android:gravity="center"
+            android:textColor="@color/colorPrimaryDark" />
+
+        <ImageView
+            android:id="@+id/imageView9"
+            android:layout_width="wrap_content"
+            android:layout_height="161dp"
+            android:src="@drawable/sobre_2" />
+
+        <TextView
+            android:id="@+id/textView25"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:gravity="center_horizontal"
+            android:text="Nossa Jornada"
+            android:textColor="@color/colorPrimaryDark"
+            android:textSize="22sp"
+            app:fontFamily="monospace" />
+
+        <TextView
+        android:id="@+id/textView26"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:gravity="center_horizontal"
+        android:text="PRINCIPAIS MARCOS"
+        android:textColor="@color/colorPrimaryDark"
+        android:textSize="7sp"
+        app:fontFamily="@font/alata" />
+
+        <TextView
+            android:id="@+id/textView27"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="10dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="10dp"
+            android:text="Acreditamos que o poder da nova mobilidade – mais segura, mais verde e mais conectada – pode mudar o mundo. E sabemos como fazê-lo. Na Aptiv, estamos fornecendo recursos de software, plataformas de computação avançadas e arquitetura de rede Isso faz com que a mobilidade funcione. "
+            android:gravity="center"
+            android:textColor="@color/colorPrimaryDark" />
+
+        <ImageView
+            android:id="@+id/imageView10"
+            android:layout_width="wrap_content"
+            android:layout_height="170dp"
+            android:layout_marginTop="20dp"
+            android:src="@drawable/sobre_3" />
+
+        <TextView
+            android:id="@+id/textView28"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:gravity="center_horizontal"
+            android:text="Nossa Missão"
+            android:textColor="@color/colorPrimaryDark"
+            android:textSize="22sp"
+            app:fontFamily="monospace" />
+
+        <TextView
+            android:id="@+id/textView29"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:gravity="center_horizontal"
+            android:text="SEGURO. VERDE. CONECTADO"
+            android:textColor="@color/colorPrimaryDark"
+            android:textSize="7sp"
+            app:fontFamily="@font/alata" />
+
+        <TextView
+            android:id="@+id/textView30"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="10dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="10dp"
+            android:text="A Aptiv ocupa uma posição de liderança como uma empresa de tecnologia que inova na intersecção de tendências disruptivas nas indústrias de mobilidade. Usamos nosso portfólio de tecnologias para tornar os veículos mais seguros, ecológicos e conectados e permitir o futuro da mobilidade. "
+            android:gravity="center"
+            android:textColor="@color/colorPrimaryDark" />
+
+        <Button
+            android:id="@+id/botao_sobre_1"
+            android:layout_width="180dp"
+            android:layout_height="40dp"
+            android:layout_gravity="center"
+            android:layout_marginTop="20dp"
+            android:background="@drawable/botao_sobre_1" />
+
+        <ImageView
+            android:id="@+id/imageView11"
+            android:layout_width="wrap_content"
+            android:layout_height="170dp"
+            android:layout_marginTop="30dp"
+            android:src="@drawable/sobre_4" />
+
+        <HorizontalScrollView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <Button
+                    android:id="@+id/botao_sobre_2"
+                    android:layout_width="150dp"
+                    android:layout_height="100dp"
+                    android:layout_marginLeft="20dp"
+                    android:background="@drawable/botao_sobre_2" />
+
+                <Button
+                    android:id="@+id/botao_sobre_3"
+                    android:layout_width="150dp"
+                    android:layout_height="100dp"
+                    android:layout_marginLeft="20dp"
+                    android:background="@drawable/botao_sobre_3" />
+
+            </LinearLayout>
+        </HorizontalScrollView>
+
+        <Button
+            android:id="@+id/botao_sobre_4"
+            android:layout_width="150dp"
+            android:layout_height="100dp"
+            android:layout_marginTop="20dp"
+            android:layout_marginLeft="105dp"
+            android:background="@drawable/botao_sobre_4" />
+
+        <ImageView
+            android:id="@+id/imageView12"
+            android:layout_width="wrap_content"
+            android:layout_height="170dp"
+            android:layout_marginTop="20dp"
+            android:src="@drawable/sobre_5" />
+
+        <TextView
+            android:id="@+id/textView31"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:gravity="center_horizontal"
+            android:text="Nossa Sustentabilidade"
+            android:textColor="@color/colorPrimaryDark"
+            android:textSize="22sp"
+            app:fontFamily="monospace" />
+
+        <TextView
+            android:id="@+id/textView32"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:gravity="center_horizontal"
+            android:text="SUSTENTÁVEL POR DESIGN"
+            android:textColor="@color/colorPrimaryDark"
+            android:textSize="7sp"
+            app:fontFamily="@font/alata" />
+
+        <TextView
+            android:id="@+id/textView33"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="10dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="10dp"
+            android:text="A Aptiv se compromete a realizar nossa missão, viver nossos valores fundamentais e melhorar continuamente para tornar nossos produtos e instalações mais sustentáveis. "
+            android:gravity="center"
+            android:textColor="@color/colorPrimaryDark" />
+
+        <Button
+            android:id="@+id/botao_sobre_5"
+            android:layout_width="290dp"
+            android:layout_height="40dp"
+            android:layout_gravity="center"
+            android:layout_marginTop="20dp"
+            android:background="@drawable/botao_sobre_5" />
+
+        <ImageView
+            android:id="@+id/imageView13"
+            android:layout_width="wrap_content"
+            android:layout_height="310dp"
+            android:layout_marginTop="20dp"
+            android:src="@drawable/sobre_6" />
+
+        <TextView
+            android:id="@+id/textView34"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:gravity="center_horizontal"
+            android:text="Nossos Negócios"
+            android:textColor="@color/colorPrimaryDark"
+            android:textSize="22sp"
+            app:fontFamily="monospace" />
+
+        <TextView
+            android:id="@+id/textView35"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:gravity="center_horizontal"
+            android:text="EMPRESA DE TECNOLOGIA FOCADA EM SOLUÇÕES DE MOBILIDADE"
+            android:textColor="@color/colorPrimaryDark"
+            android:textSize="7sp"
+            app:fontFamily="@font/alata" />
+
+        <TextView
+            android:id="@+id/textView36"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="10dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="10dp"
+            android:text="A posição única da Aptiv como o único fornecedor do cérebro (software e computação) e do sistema nervoso (potência e distribuição de dados) está nos permitindo conceber, especificar e entregar as arquiteturas avançadas de veículos do futuro. "
+            android:gravity="center"
+            android:textColor="@color/colorPrimaryDark" />
+
+        <Button
+            android:id="@+id/botao_sobre_6"
+            android:layout_width="220dp"
+            android:layout_height="40dp"
+            android:layout_gravity="center"
+            android:layout_marginTop="20dp"
+            android:background="@drawable/botao_sobre_6" />
+
+        <HorizontalScrollView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <Button
+                    android:id="@+id/botao_sobre_7"
+                    android:layout_width="107dp"
+                    android:layout_height="107dp"
+                    android:layout_marginLeft="10dp"
+                    android:background="@drawable/botao_sobre_7" />
+
+                <Button
+                    android:id="@+id/botao_sobre_8"
+                    android:layout_width="107dp"
+                    android:layout_height="107dp"
+                    android:layout_marginLeft="10dp"
+                    android:background="@drawable/botao_sobre_8" />
+
+                <Button
+                    android:id="@+id/botao_sobre_9"
+                    android:layout_width="107dp"
+                    android:layout_height="107dp"
+                    android:layout_marginLeft="10dp"
+                    android:background="@drawable/botao_sobre_9" />
+
+            </LinearLayout>
+        </HorizontalScrollView>
+
+        <HorizontalScrollView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <Button
+                    android:id="@+id/botao_sobre_10"
+                    android:layout_width="107dp"
+                    android:layout_height="107dp"
+                    android:layout_marginLeft="10dp"
+                    android:background="@drawable/botao_sobre_10" />
+
+                <Button
+                    android:id="@+id/botao_sobre_11"
+                    android:layout_width="107dp"
+                    android:layout_height="107dp"
+                    android:layout_marginLeft="10dp"
+                    android:background="@drawable/botao_sobre_11" />
+
+                <Button
+                    android:id="@+id/botao_sobre_12"
+                    android:layout_width="107dp"
+                    android:layout_height="107dp"
+                    android:layout_marginLeft="10dp"
+                    android:background="@drawable/botao_sobre_12" />
+
+            </LinearLayout>
+        </HorizontalScrollView>
+
+        <TextView
+            android:id="@+id/textView37"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:gravity="center_horizontal"
+            android:text="Acompanhe o rumo da mobilidade"
+            android:textColor="@color/colorPrimaryDark"
+            android:textSize="22sp"
+            app:fontFamily="monospace" />
+
+        <TextView
+            android:id="@+id/textView38"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="10dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="10dp"
+            android:text="Veja o que vem por aí e receba as atualizações mais recentes. Assine nossa newsletter. "
+            android:gravity="center"
+            android:textColor="@color/colorPrimaryDark" />
+
+        <Button
+            android:id="@+id/botao_sobre_13"
+            android:layout_width="300dp"
+            android:layout_height="50dp"
+            android:layout_gravity="center"
+            android:layout_marginTop="20dp"
+            android:background="@drawable/botao_sobre_13" />
+
+    </LinearLayout>
+
+</ScrollView>
