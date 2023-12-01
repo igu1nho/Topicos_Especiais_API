@@ -1,7 +1,7 @@
-# Topicos_Especiais
-Para instalar as dependencia é só usar o comando:
-``` bash
-pip install -r requirements.txt
+# Trabalho de Topicos_Especiais
+Back end:
+```
+[João Carlos](https://github.com/Jcarlos1999) fez os códigos do Back end, a implementação do Back end com o Front end e ajudou na configuração do Mongo DB
 ```
 
 Para rodar o servidor é so usar o comando:
